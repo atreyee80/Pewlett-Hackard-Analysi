@@ -15,7 +15,7 @@ Provide a bulleted list with four major points from the two analysis deliverable
 #### from_ date
 #### to_date 
 This columns are listed based on employees birthdate ,employees who were born in between 1952 to 1955 and order by emp_no
-![](Resources/retirement_titles.png?raw=true)
+![](Data/retirement_titles.png?raw=true)
 
 ### 2. The unique_titles csv list
 #### the emp_no
@@ -23,7 +23,7 @@ This columns are listed based on employees birthdate ,employees who were born in
 #### last_name
 #### title
 This columns are listed based DISTINCT ON statement to retrieve the first occurrence of the employee number for each set of rows and then Sort the Unique Titles table in ascending order by the employee number and descending order by the last date (i.e. to_date) of the most recent title.
-![](Resources/unique_titles.png?raw=true)
+![](Data/unique_titles.png?raw=true)
 ### 3.The retiring_titles csv list retrieve the number of employees by their most recent job title who are about to retire
  The columns are
 #### count
@@ -32,7 +32,7 @@ This columns are listed based DISTINCT ON statement to retrieve the first occurr
 First, retrieve the number of titles from the Unique Titles table
 Then, create a Retiring Titles table to hold the required information.
 Group the table by title, then sort the count column in descending order.
-![](Resources/retiring_titles.png?raw=true)
+![](Data/retiring_titles.png?raw=true)
 
 ### 4. The mentorship_eligibility csv
 This csv file list all the current emloyees who meet certain age criteria like whose birth dates are between January 1, 1965 and December 31, 1965 can help to
@@ -61,4 +61,4 @@ So we can see from the retiring_titles csv that around
 2 Manager will be retiring 
 So total job vacancy will be 90398
 From the mentorship_eligibility_title csv we can see that in total around 1549 current employees are there who can help to train future job opening positions.
-![](Resources/VBA_Challenge_2017.png?raw=true)
+![](Data/mentorship_eligibility_title.png?raw=true)
