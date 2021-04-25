@@ -7,7 +7,7 @@ whose task is to perform employees research to determine
 
 # Results:
 Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
-### 1. The retirement_title csv list
+### 1. The retirement_titles csv list
 #### the emp_no
 #### first_name
 #### last_name
@@ -16,3 +16,18 @@ Provide a bulleted list with four major points from the two analysis deliverable
 #### to_date 
 This columns are listed based on employees birthdate ,employees who were born in between 1952 to 1955 and order by emp_no
 
+### 2. The unique_titles csv list
+#### the emp_no
+#### first_name
+#### last_name
+#### title
+This columns are listed based DISTINCT ON statement to retrieve the first occurrence of the employee number for each set of rows and then Sort the Unique Titles table in ascending order by the employee number and descending order by the last date (i.e. to_date) of the most recent title.
+
+### 3.The retiring_titles csv list retrieve the number of employees by their most recent job title who are about to retire
+ The columns are
+#### count
+
+#### title
+First, retrieve the number of titles from the Unique Titles table
+Then, create a Retiring Titles table to hold the required information.
+Group the table by title, then sort the count column in descending order.
