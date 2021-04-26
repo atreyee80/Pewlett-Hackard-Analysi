@@ -47,11 +47,7 @@ train future job opening after the retirement of thousands of employees.
 This columns have been listed based on  DISTINCT ON statement to retrieve the first occurrence of the employee number for each set of rows and  then Order the table by the employee number.
 ![](Data/mentorship_eligibility.png?raw=true)
 ## Summary:
-A new table called mentorship_eligibility_title is being created which shows that
-Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-
+This analysis will help the upcoming "silver tsunami" by giving a brief idea that the number of employees who are eligible to retire and the mentorship_eligibility csv file will list the current employees who can help to train the future job vacancy positions
 So we can see from the retiring_titles csv that around
 29414 Senior Engineer
 28254  Senior Staff
@@ -61,5 +57,13 @@ So we can see from the retiring_titles csv that around
 1761 Assistant Engineer
 2 Manager will be retiring 
 So total job vacancy will be 90398
+A new table called mentorship_eligibility_title is being created which shows that around
+370 Staff
+354 Senior Staff
+351 Engineer
+340 Senior Engineer
+77 Technique Leader 
+57 Assistant Engineer
 From the mentorship_eligibility_title csv we can see that in total around 1549 current employees are there who can help to train future job opening positions.
+So in average every mentor can train future similar job opening as the ratio is between 1:30 or 1:40 except Senior engineer where around 29414 employees are going to retire but only 340 Senior Engineer as mentror are currently available to train which is a bit challenging.  
 ![](Data/mentorship_eligibility_title.png?raw=true)
