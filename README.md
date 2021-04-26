@@ -7,8 +7,8 @@ whose task is to perform employees research to determine
 
 ## Results:
 Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
-### 1. The retirement_titles csv list
-#### the emp_no
+### 1.The retirement_titles csv list has the following columns
+#### emp_no
 #### first_name
 #### last_name
 #### title
@@ -17,7 +17,7 @@ Provide a bulleted list with four major points from the two analysis deliverable
 This columns are listed based on employees birthdate ,employees who were born in between 1952 to 1955 and order by emp_no
 ![](Data/retirement_titles.png?raw=true)
 
-### 2. The unique_titles csv list
+### 2.unique_titles csv list has the following columns
 #### the emp_no
 #### first_name
 #### last_name
@@ -34,7 +34,7 @@ Then, create a Retiring Titles table to hold the required information.
 Group the table by title, then sort the count column in descending order.
 ![](Data/retiring_titles.png?raw=true)
 
-### 4. The mentorship_eligibility csv
+### 4. The mentorship_eligibility csv list the following columns
 This csv file list all the current emloyees who meet certain age criteria like whose birth dates are between January 1, 1965 and December 31, 1965 can help to
 train future job opening after the retirement of thousands of employees.
 #### emp_no
@@ -47,6 +47,7 @@ train future job opening after the retirement of thousands of employees.
 This columns have been listed based on  DISTINCT ON statement to retrieve the first occurrence of the employee number for each set of rows and  then Order the table by the employee number.
 ![](Data/mentorship_eligibility.png?raw=true)
 ## Summary:
+A new table called mentorship_eligibility_title is being created which shows that
 Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
